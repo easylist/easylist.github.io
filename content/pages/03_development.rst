@@ -1,0 +1,3 @@
+:title: Development
+
+We are always willing to accept new contributors to the filter lists and would encourage all users to view the filter list policies. The simplest way to become involved is to `register <https://forums.lanik.us/ucp.php?mode=register>`_ on the `EasyList forums <https://forums.lanik.us/>`_, which are the primary method of communication, and suggest filters that remove unwanted items from webpages. Committed members are awarded the contributor status and granted access to the private development section of the forums, which is where policy decisions are made and discussion of problematic domains takes place. 
