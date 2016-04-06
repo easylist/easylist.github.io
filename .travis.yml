@@ -1,0 +1,27 @@
+# https://docs.travis-ci.com/user/languages/python/
+language: python
+
+# https://docs.travis-ci.com/user/customizing-the-build/#Building-Specific-Branches
+branches:
+  only:
+    - content
+
+# https://docs.travis-ci.com/user/encryption-keys/
+env:
+  global:
+    - secure: "i8rKhqwqGnkaYGwjOxajhFr5K8QlrIhtH8MT7ZJYpwxDMLU7MZ2RD/W5KOT7yJdlsAUv1ckapu9btod5iBta9fr5kPMYw8VCVBUIq92RVhLuaUtG8Z5zzOA2L+s9F7xnWfab4VR2xZFT91UgVfwjcWk/9eELt1kpJbx5xCmyd1xwUx5TlL9C134pliXlaD2tkeQBE2BKNRKYkIETZFQvGC0HhBfBSRF1qDxaT28KG/9peMXahlGioQ7q5q2GDyBc/A/N/E+XcKGwgS+q7IZiTPbEcxD6Gx2BzEQ8SSTH2JwkiQnWnRbRClRNjPziV18jbQ7TD1z8FMtorvfpQcxK+gIervTbhRPwyIFbCV/7BJOWQil0PwU2RK8nxi+TXMVn5oEpFktFJGoT1lQ3X3LekZVPgyn95COH0VEMV1j6u8sGoZ6Unx8qmvd6A7DwX3ATroeFvz8txhbyxw4rIcpD6Mpf8PX+BjvhOoojZgyuJgggPcF8TggZtyFMUy+2/talrOQ/T3V1oZZHrNq2+im5eakOsuailkGjKxKG14iObDZYr+714oq10Tv/3jHgsIS0/UF+PwVTWUpxmtt9283Kcum+jMIMIEu9l22hrKbfoCCs6ZT++mqaWNM8ihVqXol9qqDq+cMxLBjRw2PC65CbWRmvdBDXZqMrdK30/CRcodk="
+
+# https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle
+install:
+  - pip install pelican
+before_script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "TravisCI"
+  - git config --global push.default "matching"
+
+# https://docs.travis-ci.com/user/customizing-the-build/#Customizing-the-Build-Step
+script:
+  - git clone -b master "https://$GITHUB_TOKEN@github.com/easylist/easylist.github.io" output
+  - pelican -s publishconf.py -o output content
+  - cd output && git add --all . && git commit -m "Publishing content revision $(git --git-dir ../.git rev-parse --short HEAD)" && git push --force origin master:master
+
