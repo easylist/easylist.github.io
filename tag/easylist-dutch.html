@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>EasyList - EasyList Dutch</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://easylist.github.io/2013/09/14/known-issues-of-easylist-dutch.html">Known issues of EasyList Dutch</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2013-09-14T18:40:00+02:00">
+                Published: Sat 14 September 2013
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/famlam.html">Famlam</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/known-issues.html">known issues</a> <a href="https://easylist.github.io/tag/easylist-dutch.html">EasyList Dutch</a> </p>
+</footer><!-- /.post-info --><p>This post lists the known issues of EasyList Dutch (previously DutchAdblockList), in Dutch.</p>
+<p><strong>De volgende problemen op Nederlandstalige websites zijn bekend</strong>:</p>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Probleem</strong></dt>
+<dd>Het is niet mogelijk om spoilers te openen op het forum van fok.nl</dd>
+<dt><strong>Betrokken domein</strong></dt>
+<dd><ul class="first last simple">
+<li>forum.fok.nl</li>
+</ul>
+</dd>
+<dt><strong>Oplossing</strong></dt>
+<dd>U kunt dit oplossen door advertenties toe te staan op deze pagina's door het volgende filter toe te voegen: <tt class="docutils literal"><span class="pre">&#64;&#64;||forum.fok.nl/topic/$document</span></tt></dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Probleem</strong></dt>
+<dd>Spellen op spelletjes.nl en spel.nl starten vertraagd</dd>
+<dt><strong>Betrokken domeinen</strong></dt>
+<dd><ul class="first last simple">
+<li>spelletjes.nl</li>
+<li>spel.nl</li>
+</ul>
+</dd>
+<dt><strong>Details</strong></dt>
+<dd>Op deze websites voor spelletjes starten de spellen pas na enkele tientallen seconden. Dit komt omdat de website op de achtergrond denkt dat er een advertentie gedurende die tijd bezig is, en het spel pas start als die tijd over is. De advertentie is natuurlijk geblokkeerd, maar de tijd kan niet overgeslagen worden.</dd>
+<dt><strong>Oplossing</strong></dt>
+<dd>Geen. Wacht tot het spel vanzelf start</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Probleem</strong></dt>
+<dd>Sommige advertenties in videos en games kunnen niet geblokkeerd worden</dd>
+<dt><strong>Details</strong></dt>
+<dd>In videos/games van enkele domeinen kunnen videoadvertenties niet geblokkeerd worden omdat de video/game dan zelf niet meer af kan spelen</dd>
+<dt><strong>Betrokken domeinen</strong></dt>
+<dd><ul class="first last simple">
+<li>538.nl</li>
+<li>herhaling.nl</li>
+<li>kinderspelletjes.nl</li>
+<li>ongein.nl</li>
+<li>radio10.nl</li>
+<li>radioluisteren.fm</li>
+<li>radioveronica.nl</li>
+<li>rtl7darts.nl</li>
+<li>skyradio.nl</li>
+<li>tvgids.tv</li>
+<li>twentefans.nl</li>
+<li>vmma.be</li>
+<li>voetbalprimeur.nl</li>
+<li>vtm.be</li>
+</ul>
+</dd>
+<dt><strong>Oplossing</strong></dt>
+<dd>Geen. Wacht tot de advertentie afgelopen is</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Probleem</strong></dt>
+<dd>Een lege popup verschijnt op tvgids.nl</dd>
+<dt><strong>Details</strong></dt>
+<dd>Op tvgids.nl zal bij het laden van de pagina een lege popup verschijnen, waarin oorspronkelijk advertenties stonden. Deze kan niet in de lijst geblokkeerd worden, omdat dan ook enkele legitieme onderdelen van de site niet meer functioneren.</dd>
+<dt><strong>Betrokken domein</strong></dt>
+<dd><ul class="first last simple">
+<li>tvgids.nl</li>
+</ul>
+</dd>
+<dt><strong>Oplossing</strong></dt>
+<dd>Wilt u de popup toch blokkeren, voeg dan zelf het volgende filter toe: <tt class="docutils literal"><span class="pre">tvgids.nl###simplemodal-container,#simplemodal-overlay</span></tt></dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Probleem</strong></dt>
+<dd>De melding <em>&quot;Ad block gedetecteerd, de mogelijkheid tot het afspelen van de video wordt uitgeschakeld&quot;</em></dd>
+<dt><strong>Details</strong></dt>
+<dd>Op enkele domeinen wordt <em>in FireFox</em> de melding getoond dat er een adblocker gedetecteerd is. Helaas detecteren deze websites niet of Adblock Plus actief is, maar alleen of het geïnstalleerd is. Daardoor helpt ook het uitschakelen van ABP op deze websites niet.</dd>
+<dt><strong>Betrokken domeinen</strong></dt>
+<dd><ul class="first last simple">
+<li>kijk.nl</li>
+<li>nu.nl (de sportvideos)</li>
+</ul>
+</dd>
+<dt><strong>Oplossing</strong></dt>
+<dd>Dit probleem vindt alleen in FireFox plaats. U kunt de videos in een andere browser bekijken.</dd>
+</dl>
+<hr class="docutils" />
+<p>Andere problemen gevonden op Nederlandstalige websites? Geef dit dan door in het <a class="reference external" href="https://forums.lanik.us/viewforum.php?f=100">forum</a> van EasyList Dutch of stuur een email naar het adres in de <a class="reference external" href="https://easylist-downloads.adblockplus.org/easylistdutch.txt">filterlijst</a>.</p>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://easylist.github.io/2013/05/10/anti-adblock-guide-for-site-admins.html" rel="bookmark"
+                           title="Permalink to Anti-adblock guide for site admins">Anti-adblock guide for site admins</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-05-10T15:28:00+02:00">
+                Published: Fri 10 May 2013
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/monzta.html">MonztA</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/easylist.html">EasyList</a> <a href="https://easylist.github.io/tag/easylist-dutch.html">EasyList Dutch</a> <a href="https://easylist.github.io/tag/easylist-germany.html">EasyList Germany</a> <a href="https://easylist.github.io/tag/easylist-italy.html">EasyList Italy</a> </p>
+</footer><!-- /.post-info -->                <p>Most sites do not mind if users have adblocking software installed in their browser. There are however a couple of sites that take counter measurements, trying to convince users to disable their adblockers. Our <a class="reference external" href="https://easylist.adblockplus.org/en/policy">policy</a> states the following about those so-called anti-adblock measurements: <em>&quot;Anti-Adblock should only be challenged if the ...</em></p>
+                <a class="readmore" href="https://easylist.github.io/2013/05/10/anti-adblock-guide-for-site-admins.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Affiliated subscriptions</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://easylist.github.io/2010/10/10/affiliated-subscriptions.html" rel="bookmark"
+           title="Permalink to Affiliated subscriptions">Affiliated subscriptions</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-10T10:10:00+02:00">
+                Published: Sun 10 October 2010
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/michael.html">Michael</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/affiliated-filter-lists.html">Affiliated filter lists</a> <a href="https://easylist.github.io/tag/website.html">Website</a> </p>
+</footer><!-- /.post-info -->      <p>The new website currently lists considerably fewer external subscriptions than it once did. This is as a result of a review that I have carried of the Adblock Plus recommended subscriptions in which I was somewhat surprised to discover that several contained deprecated syntax and inefficient filters, therefore rendering them unsuitable for the homepage. The most common issues that I noticed were:</p>
+<dl class="docutils">
+<dt><strong>Use of simplified element syntax</strong></dt>
+<dd>Simplified element syntax is delineated by the use of just one hash symbol (&quot;#&quot;) in the rule and is currently present in Adblock Plus for reasons of <a class="reference external" href="https://adblockplus.org/en/filters#elemhide_simplified">backwards compatibility only</a>. It has been suggested that support for rules of this type may be removed at some point in the future, which further necessitates that affiliated subscriptions use the <a class="reference external" href="https://adblockplus.org/en/filters#elemhide">more recent and efficient syntax for element hiding</a>.</dd>
+<dt><strong>Domains not clearly indicated</strong></dt>
+<dd>Since <a class="reference external" href="https://adblockplus.org/releases/adblock-plus-11-released">the Adblock Plus 1.1 release</a> over a year ago, the beginning of a domain name may be indicated by <a class="reference external" href="https://adblockplus.org/en/filters#anchors">two vertical bars (&quot;||&quot;)</a> and the end by the use of <a class="reference external" href="https://adblockplus.org/en/filters#separators">a caret separator character (&quot;^&quot;)</a>. This syntax reduces the risk of false positives appearing and it is therefore highly advisable that it is implemented in filter subscriptions.</dd>
+<dt><strong>Inefficient element hiding rules</strong></dt>
+<dd>I have noticed that element hiding rules are seldom implemented efficiently in existing subscriptions, which slows down the speed at which Adblock Plus may process the lists. There are two ways in which filters may be optimised: the tag name, such as &quot;div&quot;, may be removed from filters only specifying the id (&quot;###&quot;) or the class (&quot;##.&quot;) and only one class, indicated by the presence of a full stop (&quot;.&quot;), need be referenced. Therefore <strong>example.com##div.box.advert</strong> may have the unnecessary class removed (<strong>example.com##div.advert</strong>) and the tag not specified (<strong>example.com##.advert</strong>).</dd>
+<dt><strong>Subscriptions contain redundant filters, either when used alone or as a supplement</strong></dt>
+<dd>Subscriptions should not contain multiple filters that are logically redundant, as this unnecessarily increases the size of a supplement and the complexity of maintaining it. <a class="reference external" href="https://arestwo.org/famlam/redundantRuleChecker.html">Famlam's redundancy checker</a> enables anyone to check lists of filters to verify that no more rules are present than need to be.</dd>
+<dt><strong>No sections present in the subscription</strong></dt>
+<dd>Although not an issue that would prevent a subscription from being listed on the EasyList website, it is highly recommended that filters are sorted in a logical order with sections to delineate the purpose of particular rules. This makes the supplement far easier to both maintain and adjust, as rules may be easily found and altered.</dd>
+</dl>
+<p>If authors would like their filter subscription to be evaluated for the website they should check that all of the above issues are not present in their subscription and then <a class="reference external" href="mailto:easylist.blog&#64;gmail.com">e-mail me</a> with a request that their list be considered. It is expected that the subscription should already be listed <a class="reference external" href="https://adblockplus.org/en/subscriptions">on the Adblock Plus website</a>, as this is the origin of all the essential data about the filter list; if not <a class="reference external" href="mailto:subscriptionlist&#64;adblockplus.org">an e-mail should be sent</a> to request that this page updated first.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

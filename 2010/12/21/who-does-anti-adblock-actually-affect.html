@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Who does anti-Adblock actually affect?</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://easylist.github.io/2010/12/21/who-does-anti-adblock-actually-affect.html" rel="bookmark"
+           title="Permalink to Who does anti-Adblock actually affect?">Who does anti-Adblock actually affect?</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-12-21T07:47:00+01:00">
+                Published: Tue 21 December 2010
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/michael.html">Michael</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/adblock-plus.html">Adblock Plus</a> <a href="https://easylist.github.io/tag/known-issues.html">known issues</a> </p>
+</footer><!-- /.post-info -->      <p>Anti-Adblock scripts, which attempt to identify users of advert-blocking software and limit or, more commonly, disable access to content, appear to have become increasingly prevalent recently. Yet the techniques used to detect unwanted software are by no means infallible, and I have seen, on several occasions, that while they are certainly targeting particular groups of people, this has tended to include many innocent bystanders. I have therefore decided to outline the visitors who I believe are usually affected by such additional website &quot;functionality&quot;.</p>
+<dl class="docutils">
+<dt><strong>People with scripting disabled</strong></dt>
+<dd>It is not uncommon for JavaScript to be disabled for reasons of security, with one of the most used Firefox add-ons, <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/722/">NoScript</a>, being available specifically for this purpose. As anti-Adblock nearly always requires client scripting in order to detect advert filtration, it can just as easily cause problems for any security-conscious members of the online community <a class="footnote-reference" href="#id2" id="id1">[*]</a>.</dd>
+<dt><strong>People with special software requirements</strong></dt>
+<dd>Not everyone accesses the internet in exactly the same manner; some out of choice, some out of necessity. People in the latter group usually have a disability that prevents them from being able to interpret web pages as provided in standard browsers, and therefore may use alternatives to cater for their needs. However, as anti-Adblock techniques usually assume that there is only one possible display of a page, something that is simply inaccurate given that HTML, by definition, only marks pages rather than precisely defines them, people with customised web browsers may also be prevented from viewing page content. One of the most ludicrous examples that I have encountered is a site aimed at blind people that pointlessly mandates that all images are loaded in order to permit the textual content to be displayed.</dd>
+<dt><strong>People with poor connections to the website</strong></dt>
+<dd>Anti-Adblock techniques usually revolve around loading an item with a name that would usually be blocked by filter subscriptions and subsequently detecting whether or not it is present; however, this relies on the object being immediately available to be scrutinised. There are two reasons why this may not occur: the first is that the client could be using a dial-up internet connection and the second is a reliance on a particular server being constantly available for communicating data, a problem only exacerbated when the item is hosted on a third-party domain. Relying on these two suppositions is extremely risky, as no hosting or internet service provider can guarantee 100% up time or that every connection will be successful.</dd>
+<dt><strong>Search engine spiders</strong></dt>
+<dd>Search engine spiders usually only record the text of a page, with Google noting that &quot;<a class="reference external" href="http://www.google.com/support/webmasters/bin/answer.py?answer=35769">fancy features such as JavaScript [mean that] search engine spiders may have trouble crawling your site</a>&quot; ; however, requiring every item to be loaded on a domain, something that a bot may not do, means that all that the search engine will record is that advert blocking programs must not be used. This damages any search result rankings applied to the content because there is no relevant text to analyse and could consequently worsen the position of the domain when a particular term is requested.</dd>
+</dl>
+<p>As the above list demonstrates, there are many innocent people who are affected by attempts to implement anti-Adblock on a domain. The irony is that visitors with sufficiently advanced advert-blocking software are usually unaffected by such measures because of the presence of whitelists that protect necessary items and automatically updating subscriptions that distribute alterations negating detection.</p>
+<p>So when you next consider adding anti-Adblock to a website, please first consider you you are actually going to cause problems for: visitors blocking adverts, people with slow internet connections or disabilities, or your own search engine reputation.</p>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[*]</a></td><td>Incidentally, some people remove adverts to decrease the number of attack vectors available when visiting a website, and therefore can also fall into the category of &quot;security-conscious&quot; visitors.</td></tr>
+</tbody>
+</table>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

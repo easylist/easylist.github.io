@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Giorgio Maone, NoScript.net and FlashGot.net</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://easylist.github.io/2011/04/25/giorgio-maone-noscript-net-and-flashgot-net.html" rel="bookmark"
+           title="Permalink to Giorgio Maone, NoScript.net and FlashGot.net">Giorgio Maone, NoScript.net and FlashGot.net</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-04-25T18:46:00+02:00">
+                Published: Mon 25 April 2011
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/michael.html">Michael</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/easylist.html">EasyList</a> <a href="https://easylist.github.io/tag/known-issues.html">known issues</a> </p>
+</footer><!-- /.post-info -->      <dl class="docutils">
+<dt><strong>Problem:</strong></dt>
+<dd>Some adverts are not blocked by EasyList on Giorgio Maone's add-on websites.</dd>
+<dt><strong>Affects:</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://noscript.net/">http://noscript.net/</a></li>
+<li><a class="reference external" href="http://flashgot.net/">http://flashgot.net/</a></li>
+</ul>
+</dd>
+<dt><strong>Cause:</strong></dt>
+<dd><p class="first">At the end of February the EasyList project were privately notified that there remained some unblocked adverts on Giorgio Maone's add-on websites which were slightly different to items usually blocked by the subscription. Instead of being an external file or text links, the images were encoded and saved in an embedded stylesheet, which meant that the only way to remove them would be to use element hiding rules to collapse the unwanted area.</p>
+<p>Aware that the difficulty of filtering out images encoded in this method (<strong>data:image</strong>), I <a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?t=6968">requested support for the format in the Adblock Plus forums</a>, referring merely to &quot;a familiar website&quot; instead of explicitly naming the problematic domains. However, as such encoded images are not easily distinguished because they have no file name, it was decided that it might be better to wait and see whether the rules that <a class="reference external" href="http://code.google.com/p/ruadlist/">RUAdList</a> implemented were successful. While, under normal circumstances, filters would be added immediately, prior events (see <a class="reference external" href="https://adblockplus.org/blog/attention-noscript-users">Wladimir's</a> and <a class="reference external" href="http://hackademix.net/2009/05/04/dear-adblock-plus-and-noscript-users-dear-mozilla-community/">Giorgio's</a> blogs) led the authors to concur that &quot;we shouldn't start a cat and mouse game again&quot;.</p>
+<p>This issue was then pushed to the back of our minds until the topic was <a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?f=1&amp;t=7356">publicly raised in the Adblock Plus forums</a> on the ninth of April, with a user asking Giorgio the same question that he asked us: why were adverts still present on the NoScript website? Although Hubird, the Adversity author, explained that he believed that &quot;the NoScript developer actively makes it difficult for subscription authors to remove ads from his site (changing site design in an effort to thwart attempts)&quot;, an assertion which MonztA, an EasyList author, agreed with, Giorgio responded with the following post, which I have included in its entirety to avoid possible misinterpretation:</p>
+<blockquote>
+<p>&#64;Hubird, &#64;Montza:</p>
+<p>No.</p>
+<p>I haven't touched the &quot;site design&quot; for almost two years now, and I don't &quot;actively make&quot; anything about it.</p>
+<p>Those units probably difficult to remove, but because they're just static images embedded in the page itself, which don't even perform any extra round trip to my own server -- let alone a 3rd party server -- and therefore don't implement any persistent tracking / behavioral stuff.</p>
+<p>Of course the DOM being a bit random doesn't help either, but this picture of an evil and obsessive webmaster &quot;actively&quot; watching subscription authors and &quot;changing site design in an effort to thwart attempts&quot; is quite off base.</p>
+<p class="attribution">&mdash;<a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?f=1&amp;t=7356#p45639">Giorgio Maone</a></p>
+</blockquote>
+<p>I and several others interpreted this statement to mean that the websites would not be changed in the event that filters were added for the domains, and I therefore committed what would be the first of many rules, reasoning that &quot;<a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?f=1&amp;t=7356#p45663">if a website is not actively altered I see no reason why EasyList should not filter out all the adverts</a>&quot;.</p>
+<p>There were initially a couple of <a class="reference external" href="https://hg.adblockplus.org/easylist/rev/6eaa4e863a4a">minor</a> <a class="reference external" href="https://hg.adblockplus.org/easylist/rev/18aee58644f6">changes</a> to the subscription, which were ultimately suggested to have resulted from a lack of testing on the website, as we assumed that the pages would remain static. I further proposed that the filters should be more specific to avoid false positives, a change that was implemented for both <a class="reference external" href="https://hg.adblockplus.org/easylist/rev/1035c7842ce8">NoScript.net</a> and <a class="reference external" href="https://hg.adblockplus.org/easylist/rev/4ec885e7bf06">FlashGot.net</a>.</p>
+<p>However, we then became increasingly aware that the filters were ineffective when we checked the domains, and therefore subsequently altered the rules on several occasions for both websites (the full <a class="reference external" href="https://hg.adblockplus.org/easylist/log?rev=noscript.net">list of revisions for NoScript.net</a> and the <a class="reference external" href="https://hg.adblockplus.org/easylist/log?rev=flashgot.net">list of revisions for FlashGot.net</a> and are publicly available from <a class="reference external" href="https://hg.adblockplus.org/easylist/">our repository</a>). Although we were aware that the website was randomly altered by the server, we all agreed that certain elements of randomness, such as using alternative and altering tag names, was definitely not present when filters were first added for the domains.</p>
+<p>I further discovered from MonztA, an EasyList author and moderator on the Adblock Plus forums, that Giorgio posted anonymously as &quot;Guest&quot; on <a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?t=7356&amp;start=15#p46104">two</a> <a class="reference external" href="https://adblockplus.org/forum/viewtopic.php?f=1&amp;t=7356&amp;start=15#p46106">occasions</a> to report issues with the website, something that I consider to be unfair given that he was an involved party in the discussion. It also became apparent that a member of the community was being provided with pages that did not include adverts on Giorgio's domains, making it increasingly difficult to successfully filter the unwanted sections.</p>
+<p class="last">We eventually decided, having attempted repeatedly to remove the adverts without false positives, that it would be more productive and informative to <a class="reference external" href="https://hg.adblockplus.org/easylist/rev/73a64ca3ae82">remove the filters specifically for Giorgio's domains from EasyList</a> and explain the circumstances in a blog post. While I cannot say that this is an unexpected result given past events, I can say that I am disappointed that I could not take Giorgio at his word when he claimed that the &quot;picture of [him as a] webmaster &quot;actively&quot; watching subscription authors and &quot;changing site design in an effort to thwart attempts&quot; is quite off base&quot;. Security depends on the people you trust, as any author of major browser extensions will be aware, and I am certainly less inclined to trust Giorgio after this incident.</p>
+</dd>
+<dt><strong>Solution:</strong></dt>
+<dd><p class="first">There aren't really many solutions to the current state of affairs. The use of images encoded and embedded in the stylesheet means that only element hiding rules may be used to collapse the adverts, and the constant randomisation of the domains, in addition to interventions to prevent existing rules from functioning, means that any publicly announced filters are usually invalid within a few hours. Furthermore, at least one member of the advert blocking community who might have been able to assist is unable to view the adverts after his IP address was identified and alternative pages provided.</p>
+<p class="last">While not an optimum solution, it would appear that the only certain method to avoid Giorgio's adverts is to cease visiting both domains entirely.</p>
+</dd>
+<dt><strong>Update: 29/05/2011</strong></dt>
+<dd>Ares2 claims to have found some safe filters with which do not cause false positives, and I have therefore permitted him to commit these rules to the subscription.</dd>
+</dl>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

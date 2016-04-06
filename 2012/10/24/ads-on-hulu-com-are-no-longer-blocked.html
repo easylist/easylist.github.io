@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Ads on hulu.com are no longer blocked</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://easylist.github.io/2012/10/24/ads-on-hulu-com-are-no-longer-blocked.html" rel="bookmark"
+           title="Permalink to Ads on hulu.com are no longer blocked">Ads on hulu.com are no longer blocked</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-10-24T10:02:00+02:00">
+                Published: Wed 24 October 2012
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/monzta.html">MonztA</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/adblock-plus.html">Adblock Plus</a> <a href="https://easylist.github.io/tag/easylist.html">EasyList</a> <a href="https://easylist.github.io/tag/known-issues.html">known issues</a> </p>
+</footer><!-- /.post-info -->      <dl class="docutils">
+<dt><strong>Problem:</strong></dt>
+<dd>Video ads on <a class="reference external" href="http://www.hulu.com/">hulu.com</a> show up before the actual video starts.</dd>
+<dt><strong>Affects:</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="http://www.hulu.com/">hulu.com</a></li>
+<li>any other page where Hulu videos are embedded</li>
+</ul>
+</dd>
+<dt><strong>Cause:</strong></dt>
+<dd>Hulu videos on external sites are embedded in a HTML frame (example: <a class="reference external" href="http://www.huffingtonpost.com/2012/10/17/jon-stewart-scoffs-at-paul-ryan-soup-kitchen_n_1973566.html">huffingtonpost.com</a>). While the video ads on Hulu itself can still be blocked (a countdown shows up instead of a video ad), embedded videos on external sites will no longer play unless videa ads are allowed. This forced us to add specific whitelists for these ads.</dd>
+<dt><strong>Solution (Firefox only!):</strong></dt>
+<dd>Unfortunately, there is no way to block the ads on Hulu and allow them on external sites as the latter are embedded in a HTML frame. If you do not watch Hulu video on external sites, you can disable the whitelists and still watch videos on <a class="reference external" href="http://www.hulu.com/">hulu.com</a> without ads. Here is a step-by-step instruction how to disable them:</dd>
+</dl>
+<ol class="arabic simple">
+<li>Click on the &quot;ABP&quot; icon in Firefox (it is most likely in the left corner at the bottom) and choose &quot;Filter preferences...&quot;.</li>
+<li>Click on <a class="reference external" href="https://easylist.adblockplus.org/blog-images/abp_preferences.png">this button on the right</a>.</li>
+<li>Click on the &quot;Find&quot; button that appeared on the top.</li>
+<li>Type <strong>hulu.com/published</strong> and disable these two exception rules <strong>&#64;&#64;||hulu.com/published/*.flv</strong> and <strong>&#64;&#64;||hulu.com/published/*.mp4</strong> by unticking them like <a class="reference external" href="https://easylist.adblockplus.org/blog-images/abp_preferences_2.png">shown in this screenshot</a>.</li>
+<li>Close the filter preferences window of Adblock Plus.</li>
+</ol>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

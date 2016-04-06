@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>EasyList Statistics: August 2011</title>
+        <link rel="stylesheet" href="https://easylist.github.io/theme/css/main.css" />
+        <link href="https://easylist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EasyList Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://easylist.github.io/">EasyList </a></h1>
+                <nav><ul>
+                    <li ><a href="/index.html">Overview</a></li>
+                    <li ><a href="/category/articles.html">Articles</a></li>
+                    <li ><a href="/pages/development.html">Development</a></li>
+                    <li ><a href="/pages/policy.html">Policy</a></li>
+                    <li ><a href="/pages/about.html">About</a></li>
+                    <li ><a href="https://forums.lanik.us/">Forum</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://easylist.github.io/2011/09/01/easylist-statistics:-august-2011.html" rel="bookmark"
+           title="Permalink to EasyList Statistics: August 2011">EasyList Statistics: August 2011</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-09-01T12:00:00+02:00">
+                Published: Thu 01 September 2011
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://easylist.github.io/author/michael.html">Michael</a>
+        </address>
+<p>In <a href="https://easylist.github.io/category/articles.html">Articles</a>.</p>
+<p>tags: <a href="https://easylist.github.io/tag/easylist.html">EasyList</a> <a href="https://easylist.github.io/tag/easyprivacy.html">EasyPrivacy</a> <a href="https://easylist.github.io/tag/easylist-germany.html">EasyList Germany</a> </p>
+</footer><!-- /.post-info -->      <p>Looking back, it has been <a class="reference external" href="https://forums.lanik.us/viewtopic.php?t=679">a long time since</a> anyone has evaluated or released the statistics for the EasyList subscriptions, so I thought that, as August has just eneded, it might be time to estimate exactly how many users there are of the filter lists.</p>
+<p>Even though I am aware that most people are interested simply in the user estimates, I should start by explaining how the statistics are gathered for the users of EasyPrivacy and any other privacy conscious individuals. When a browser connects to a web server, it automatically sends information to request a copy of, in this instance, a text file. This request includes the user agent, which for Firefox states the name of the operating system (although this information is not present in my statistics) and the version of the browser. The Adblock Plus website, like so many others, logs these requests with the time and date the request was made. These logs are then analysed by <a class="reference external" href="http://awstats.sourceforge.net/">AWStats</a>. No active tracking scripts have been installed.</p>
+<p>Although there is a lot of information, calculating the number of users of the EasyList subscriptions cannot provide a complete picture for a variety of reasons. Adblock Plus updates subscriptions between four and six days after they were last updated. However, if a user does not use a browser for a day, then an update will be delayed for a day, up to ten days after a subscription was last updated. This being August, many people are likely to be on holiday, which means that the subscription updates are likely to be less frequent than my assumed value of five days. It is also possible, but extremely unlikely, that results may be overestimated as a result of many people forcing a download from the Adblock Plus preferences window.</p>
+<p>Viewing the statistics at the time this algorithm was implemented, <a class="reference external" href="https://adblockplus.org/blog/downloading-a-file-regularly-how-hard-can-it-be">Wladimir hoped that the changes would prevent a “Monday peak”</a> from overloading the server, the result of office workers all updating on Monday morning if the five day interval passed over the weekend. However, it is clear that there are a number of users of the subscriptions who do not have a recent version of Adblock Plus installed. Using the four full weeks of August 2011 as an example, Mondays show on average 12% more downloads than would be expected (week total / 7), ranging from 110.8% to 118.5% of the expected traffic. In contrast, downloads tended to tail off as the week progressed, the most marked drop being on Saturdays and Sundays, with an average of 92% of the expected traffic each day. This ranged from a low of 91.6% on Saturday 13 August to a weekend high of 95.8% on Sunday 28 August.</p>
+<p>In spite of the variation based on week day the total number of downloads per week was fairly stable: in order, each week achieved 98.1%, 99.0%, 100.7% and 102.2% of expected traffic, the initial low results likely the results of holidays without computers and therefore without updates to EasyList.</p>
+<p>Now, however, it is time to answer the big question: how many people actually use the subscriptions? These values were calculated by taking the total number of downloads in a month, dividing the resulting total by thirty one to find the average number per day and then multiplying by five, as this would be, if everyone used their browser daily (which they don't), the average update period.</p>
+<p>Going through the subscriptions, it is no surprise that <a class="reference external" href="https://easylist.adblockplus.org/#easylist">EasyList</a> has the largest user base. Taking into account all combined subscriptions, versions and variations, such as the one with element hiding rules, the one without rules for adult websites and relevant tracking protection lists, we find that there were seventy three million downloads of the file in August, suggesting that there are <strong>twelve million users</strong>, of whom 99% use Adblock Plus filter format. <a class="reference external" href="https://easylist.adblockplus.org/#easylistgermany">EasyList Germany</a> has also been popular, with two and a half million users (99.9% Adblock Plus format), as has <a class="reference external" href="https://easylist.adblockplus.org/#easyprivacy">EasyPrivacy</a>, despite the comparatively paltry total of &quot;just&quot; half a million users. However, unlike EasyList and EasyList Germany, which have seen little usage as Tracking Protection Lists, just over half of the users of EasyPrivacy use <a class="reference external" href="https://easylist.adblockplus.org/blog/2011/02/10/easyprivacy-tracking-protection-list">EasyPrivacy TPL</a>, its popularity likely due to <a class="reference external" href="https://ie.microsoft.com/testdrive/Browser/TrackingProtectionLists/">Microsoft's promotion of the list</a>, which we are very grateful for.</p>
+<p>Next, it is possible to put these values in perspective: how dominant is EasyList as an Adblock Plus subscription? Looking at <a class="reference external" href="https://addons.mozilla.org/statistics/addon/1865">the public statistics page for the add-on</a> and ignoring the recent erroneous readings, we find that there are twelve and a half million users of Adblock Plus. Taking into account the usage of AdBlock for Chrome and Adblock Plus for Chrome, which according to user agents accounts for, at most, 15% of installations, we find that 80% of people using Adblock Plus use EasyList as a primary subscription. This is despite the random selection of EasyList or Fanboy's List for a new English language user. I would attribute this popularity to historical reasons (people installed Adblock Plus when EasyList was the only recommended subscription for English language users); the large number of recommended supplementary subscriptions, including <a class="reference external" href="https://easylist.adblockplus.org/#easylistgermany">EasyList Germany</a>, <a class="reference external" href="https://code.google.com/p/ruadlist/">RU AdList</a>, <a class="reference external" href="http://adblock-listefr.com/">Liste FR</a> and <a class="reference external" href="https://code.google.com/p/adblock-chinalist/">ChinaList</a> <a class="footnote-reference" href="#id2" id="id1">[*]</a>, to name but a few, which are selected automatically when the subscription and browser languages match; and its position as a fallback subscription: if the browser language does not match any recommended subscription, EasyList is automatically installed.</p>
+<p>Of course, the minor subscriptions also deserve a mention. <a class="reference external" href="https://easylist.adblockplus.org/#easylistnoelemhide">EasyList without element hiding</a> has accumulated around seven thousand users, <a class="reference external" href="https://easylist.adblockplus.org/blog/2011/05/30/announcing-easyadult">EasyList without rules for adult sites</a> has over two thousand users and EasyPrivacy without international filters has just over one thousand users. Finally, <a class="reference external" href="https://forums.lanik.us/viewtopic.php?t=8505">EasyTest</a>, an EasyList supplement used for examining filters known to cause problems on websites, has accumulated just 33 users.</p>
+<p>While there is great variation in the usage of the EasyList subscriptions, the statistics emphasise the great responsibility that we authors have - a minor mistake can quickly affect thousands of people. I would therefore appeal to anyone who has made it to the final paragraph to consider getting involved with the project to assist the very few authors we have - even suggesting rules for problematic sites helps us to reduce the time it takes to commit a fix. Regardless of this challenge, I am optimistic:  provided the requisite bandwidth is made available (4.2 TB was required this month for the Adblock Plus version of EasyList alone), I see no reason why the project should not continue to be successful.</p>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[*]</a></td><td>I am not going to discuss the usage of the affiliated subscriptions as I do not have the statistics for the files hosted third-party, but the subscription authors are welcome to write their own analysis with the assistance of statistics for the EasyList mirrors - you should know how to access the logs, if not, please private message me.</td></tr>
+</tbody>
+</table>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
