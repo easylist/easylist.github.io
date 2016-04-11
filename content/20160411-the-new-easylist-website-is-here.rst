@@ -7,7 +7,7 @@ The new EasyList website is here!
 :slug: 2016/04/11/the-new-easylist-website-is-here
 :authors: MonztA
 
-Welcome to the new EasyList website! Our website hasn't changed in `nearly over 6 years <2010/08/31/welcome-to-the-new-easylist-website.html>`_, so it was about time to update it and get rid of some stuff. Both, the blog environment "`Zine <http://zine.pocoo.org/>`_" and CMS "`Anwiki <http://www.anwiki.com/>`_", also haven't been updated in years. 
+Welcome to the new EasyList website! Our website hasn't changed in `nearly over 6 years </2010/08/31/welcome-to-the-new-easylist-website.html>`_, so it was about time to update it and get rid of some stuff. Both, the blog environment "`Zine <http://zine.pocoo.org/>`_" and CMS "`Anwiki <http://www.anwiki.com/>`_", also haven't been updated in years. 
 
 As you can see not too much has changed. Some obsolete content was removed, some was updated to reflect the current state. The layout is pretty much the same as on the old homepage. We got rid of the comments functionality in blog articles. It wasn't a really popular feature, people tend to report issues with our filter lists there and it was also abused for spam. We might think about a sub-forum as a replacement for comments if there is any demand though. "`Other Supplementary Filter Lists and EasyList Variants </pages/other-supplementary-filter-lists-and-easylist-variants.html>`_" were moved to a dedicated page to unclutter the main page. Soon we are going to add more information to all lists such as hompage and contact links there. 
 
