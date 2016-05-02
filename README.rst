@@ -17,6 +17,24 @@ Ads @ 30% of revenue loss to the targeted site?
 
 How many sites have been victimized by MonztA, Eyeo, AdblockPlus and Easylist?
 
+How much money does Eyeo pay MonztA to maintain both Easylist and Acceptable Ads?
+
+Why do the Easylist maintainers have access to the Adblock Plus reporting system?
+
+Eyeo maintains that they are independent of Easylist, and vice-versa.  However, Eyeo provides
+infrastructure for Easylist:
+
+Reporting system:
+https://forums.lanik.us/viewtopic.php?f=62&t=29584&p=91007#p91007
+
+Source control:
+https://hg.adblockplus.org/
+
+CDN / Distribution:
+https://easylist-downloads.adblockplus.org/
+
+This is a far cry from independent.
+
 Why did Eyeo shut down their Easylist forum? 
 
 https://adblockplus.org/forum/viewtopic.php?f=2&t=44747
