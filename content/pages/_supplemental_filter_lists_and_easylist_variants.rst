@@ -10,7 +10,7 @@ EasyList Germany
 ----------------
 EasyList Germany is a filter list written by the EasyList authors MonztA, Famlam and Khrin that specifically removes adverts on German language websites.
 
-`View EasyList Germany <https://easylist-downloads.adblockplus.org/easylistgermany.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https%3A%2F%2Feasylist-downloads.adblockplus.org%2Feasylistgermany.txt&title=EasyList%20Germany&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+`View EasyList Germany <https://easylist.github.io/easylistgermany/easylistgermany.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.github.io/easylistgermany/easylistgermany.txt&title=EasyList%20Germany&requiresLocation=https://easylist.github.io/easylist/easylist.txt&requiresTitle=EasyList>`__
 
 --------------
 EasyList Italy

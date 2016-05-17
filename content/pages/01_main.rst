@@ -11,14 +11,14 @@ EasyList
 --------
 EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.
 
-`View EasyList <https://easylist-downloads.adblockplus.org/easylist.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylist.txt&title=EasyList>`__
+`View EasyList <https://easylist.github.io/easylist/easylist.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.github.io/easylist/easylist.txt&title=EasyList>`__
 
 -----------
 EasyPrivacy
 -----------
 EasyPrivacy is an optional supplementary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts and information collectors, thereby protecting your personal data.
 
-`View EasyPrivacy <https://easylist-downloads.adblockplus.org/easyprivacy.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist-downloads.adblockplus.org/easyprivacy.txt&title=EasyPrivacy&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+`View EasyPrivacy <https://easylist.github.io/easylist/easyprivacy.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.github.io/easylist/easyprivacy.txt&title=EasyPrivacy&requiresLocation=https://easylist.github.io/easylist/easylist.txt&requiresTitle=EasyList>`__
 
 -----------------------
 Fanboy's Annoyance List
