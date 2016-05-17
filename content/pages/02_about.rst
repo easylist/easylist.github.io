@@ -20,7 +20,7 @@ On 17 May 2013 the merger with `Fanboy's List <https://fanboy.co.nz/>`_ was `fin
 ---------
 Copyright
 ---------
-EasyList, EasyPrivacy, EasyList Germany, EasyList Italy and EasyList Dutch are dual licensed under `Creative Commons Attribution-ShareAlike and the GNU General Public License <https://easylist-downloads.adblockplus.org/COPYING>`_. Website content, including images, blog posts and coding, is available under `Creative Commons Attribution-ShareAlike <https://creativecommons.org/licenses/by-sa/3.0/>`_. Material should be attributed to the person listed in the credits section or, in the event of no specific reference, "The EasyList authors (https://easylist.github.io/)". It is requested, but not required, that anyone who wishes to use the logo contacts the EasyList authors and does not use it to represent any other organisations without prior consent.
+EasyList, EasyPrivacy, EasyList Germany, EasyList Italy and EasyList Dutch are dual licensed under `Creative Commons Attribution-ShareAlike and the GNU General Public License </pages/licence.html>`_. Website content, including images, blog posts and coding, is available under `Creative Commons Attribution-ShareAlike <https://creativecommons.org/licenses/by-sa/3.0/>`_. Material should be attributed to the person listed in the credits section or, in the event of no specific reference, "The EasyList authors (https://easylist.github.io/)". It is requested, but not required, that anyone who wishes to use the logo contacts the EasyList authors and does not use it to represent any other organisations without prior consent.
 
 -------
 Credits
