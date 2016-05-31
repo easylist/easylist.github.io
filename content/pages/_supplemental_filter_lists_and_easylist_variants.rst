@@ -80,7 +80,7 @@ EasyList Hebrew
 ---------------
 EasyList Hebrew is an affiliated filter list written by BsT that specifically removes adverts on Hebrew language websites.
 
-`View EasyList Hebrew <https://raw.githubusercontent.com/AdBlockPlusIsrael/EasyListHebrew/master/EasyListHebrew.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://raw.github.com/AdBlockPlusIsrael/EasyListHebrew/master/EasyListHebrew.txt&title=EasyList%20Hebrew&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+`View EasyList Hebrew <https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt&title=EasyList%20Hebrew&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
 
 ------------------
 EasyList Lithuania
