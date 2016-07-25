@@ -9,7 +9,7 @@ General Public License version 3 of the License, or (at your option)
 any later version, and Creative Commons Attribution-ShareAlike 3.0
 Unported, or (at your option) any later version. You may use and/or
 modify the files as permitted by either licence; if required,
-"The EasyList authors (https://easylist.github.io/)" should be
+"The EasyList authors (https://easylist.to/)" should be
 attributed as the source of the material. All relevant licence files
 are included in the repository.
 
