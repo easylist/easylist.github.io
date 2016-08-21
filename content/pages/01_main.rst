@@ -23,7 +23,7 @@ EasyPrivacy is an optional supplementary filter list that completely removes all
 -----------------------
 Fanboy's Annoyance List
 -----------------------
-Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. Fanboy's Social Blocking List is already included, there is no need to subscribe to it if you have you already have Fanboy's Annoyance List.
+Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. Fanboy's Social Blocking List is already included, there is no need to subscribe to it if you already have Fanboy's Annoyance List.
 
 `View Fanboy's Annoyance List <https://easylist.to/easylist/fanboy-annoyance.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.to/easylist/fanboy-annoyance.txt&title=Fanboy's%20Annoyance%20List>`__
 
