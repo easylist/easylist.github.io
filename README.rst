@@ -1,3 +1,28 @@
+Conflict of interest
+====================
+
+Let's describe the conflict of interest present in Easylist and AdblockPlus / Eyeo.
+
+- The majority of AdblockPlus "Acceptable Ads" commits are done by Easylist Author MonztA
+  - https://hg.adblockplus.org/exceptionrules/shortlog
+- When "Acceptable Ads" are approved by Eyeo, MonztA executes
+  - https://adblockplus.org/forum/viewtopic.php?p=147274#p147274
+  - https://hg.adblockplus.org/exceptionrules/rev/a29689f3ae42
+
+How is it possible for AdblockPlus / Eyeo to maintain a degree of separation between Easylist
+when MonztA, one of the primary authors, also manages the Acceptable Ads program?
+
+What would stop MonztA from breaking sites in pursuit of those sites signing on for Acceptable
+Ads @ 30% of revenue loss to the targeted site?
+
+How many sites have been victimized by MonztA, Eyeo, AdblockPlus and Easylist?
+
+Why did Eyeo shut down their Easylist forum? 
+
+https://adblockplus.org/forum/viewtopic.php?f=2&t=44747
+
+What is there to hide, besides the obvious collusion?
+
 Pelican / GitHub Project Pages Test
 ===================================
 
