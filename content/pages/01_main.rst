@@ -39,6 +39,6 @@ Fanboy's Social Blocking List solely removes Social Media content on web pages s
 
 --------
 
-If you should encounter unwanted items or problems with the EasyList filter lists you should report the issues in the `EasyList Forums <https://forums.lanik.us/>`_. No registration is required. This will allow members to assist you in resolving problems and will notify the authors that the filter lists should be updated, a change that will rectify the issue for all users. You can also request assistance by `e-mailing the EasyList authors directly <mailto:easylist.subscription@gmail.com>`_.
+If you should encounter unwanted items or problems with the EasyList filter lists you should report the issues in the `EasyList Forums <https://forums.lanik.us/>`_. This will allow members to assist you in resolving problems and will notify the authors that the filter lists should be updated, a change that will rectify the issue for all users. You can also request assistance by `e-mailing the EasyList authors directly <mailto:easylist.subscription@gmail.com>`_.
 
 Problems with other filter lists should be reported to their respective authors.
