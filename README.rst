@@ -1,7 +1,7 @@
 Pelican / GitHub Project Pages Test
 ===================================
 
-This repository hosts the source files for the https://easylist.github.io/
+This repository hosts the source files for the https://easylist.to/
 online content, which is generated using the `Pelican <http://getpelican.com/>`_
 software, and hosted at `GitHub <https://github.com/>`_.
 
