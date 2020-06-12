@@ -1,6 +1,6 @@
 :title: About
 
-This is the official website for the EasyList filter list project. The project may be contacted in `the forums <https://forums.lanik.us/>`_ or via the internal mailing lists; there is one available for `filter list issues <mailto:easylist.subscription@gmail.com>`_ and another for `blog and website comments <mailto:easylist.blog@gmail.com>`_.
+This is the official website for the EasyList filter list project. The project may be contacted in `the forums <https://forums.lanik.us/>`_ or via the `internal mailing list <mailto:easylist@protonmail.com>`_.
 
 -------
 History
