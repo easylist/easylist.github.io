@@ -5,7 +5,7 @@ EasyList policy
 ---------------
 - Purpose
 	- EasyList filters must remove `adverts </2011/07/11/the-definition-of-advert-and-link-exchange-policy.html>`_, although it is acceptable for them to incidentally remove tracking.
-	- Self-promotion should not be specifically removed by EasyList, although equally should not be whitelisted if it is blocked.
+	- Self-promotion should not be specifically removed by EasyList, although equally should not be allowed if it is blocked.
 	- Adverts must be blocked regardless of the reasons for their presence or the purpose that the money raised ultimately serves.
 	- `Ads caused by malware or adware extensions or plugins on your computer will not be fixed </2013/03/09/ads-caused-by-malware-or-adware-extensions-or-plugins.html>`_.
 
@@ -24,7 +24,7 @@ EasyList policy
 	- Domains specifically serving adverts should be blocked on all third-party websites.
 	- Filters must be as efficient as possible.
 	- Only element rules based on id or class should be applied to all domains, unless there are exceptional circumstances.
-	- Whitelists should be specific enough to avoid protecting unwanted items.
+	- Allowlists should be specific enough to avoid protecting unwanted items.
 
 ------------------
 EasyPrivacy policy
@@ -43,4 +43,4 @@ EasyPrivacy policy
 - Syntax
 	- Domains specifically serving tracking should be blocked on all third-party websites.
 	- Filters must be as efficient as possible.
-	- Whitelists should be specific enough to avoid protecting unwanted items.
+	- Allowed blocked items should be specific enough to avoid protecting unwanted items.
