@@ -11,35 +11,35 @@ EasyList
 --------
 EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.
 
-`View EasyList <https://easylist.to/easylist/easylist.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.to/easylist/easylist.txt&title=EasyList>`__
+`View EasyList <https://easylist.to/easylist/easylist.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist.to/easylist/easylist.txt&title=EasyList>`__
 
 -----------
 EasyPrivacy
 -----------
 EasyPrivacy is an optional supplementary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts and information collectors, thereby protecting your personal data.
 
-`View EasyPrivacy <https://easylist.to/easylist/easyprivacy.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy&requiresLocation=https://easylist.to/easylist/easylist.txt&requiresTitle=EasyList>`__
+`View EasyPrivacy <https://easylist.to/easylist/easyprivacy.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist.to/easylist/easyprivacy.txt&title=EasyPrivacy&requiresLocation=https://easylist.to/easylist/easylist.txt&requiresTitle=EasyList>`__
 
 --------------------
 EasyList Cookie List
 --------------------
 EasyList Cookie List blocks cookies banners, GDPR overlay windows and other privacy-related notices.
 
-`View EasyList Cookie List <https://easylist-downloads.adblockplus.org/easylist-cookie.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt&title=EasyList%20Cookie%20List>`__
+`View EasyList Cookie List <https://easylist-downloads.adblockplus.org/easylist-cookie.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt&title=EasyList%20Cookie%20List>`__
 
 -----------------------------
 Fanboy's Social Blocking List
 -----------------------------
 Fanboy's Social Blocking List solely removes Social Media content on web pages such as the Facebook like button and other widgets.
 
-`View Fanboy's Social Blocking List <https://easylist.to/easylist/fanboy-social.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.to/easylist/fanboy-social.txt&title=Fanboy's%20Social%20Blocking%20List>`__
+`View Fanboy's Social Blocking List <https://easylist.to/easylist/fanboy-social.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist.to/easylist/fanboy-social.txt&title=Fanboy's%20Social%20Blocking%20List>`__
 
 -----------------------
 Fanboy's Annoyance List
 -----------------------
 Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. EasyList Cookie List and Fanboy's Social Blocking List are already included, there is no need to subscribe to them if you already have Fanboy's Annoyance List.
 
-`View Fanboy's Annoyance List <https://easylist.to/easylist/fanboy-annoyance.txt>`_ or `add it to your ad blocker <abp:subscribe?location=https://easylist.to/easylist/fanboy-annoyance.txt&title=Fanboy's%20Annoyance%20List>`__
+`View Fanboy's Annoyance List <https://easylist.to/easylist/fanboy-annoyance.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist.to/easylist/fanboy-annoyance.txt&title=Fanboy's%20Annoyance%20List>`__
 
 
 `See all officially supported language-specific supplemental filter lists and EasyList variants </pages/other-supplementary-filter-lists-and-easylist-variants.html>`_
