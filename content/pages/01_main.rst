@@ -25,7 +25,7 @@ EasyList Cookie List
 --------------------
 EasyList Cookie List blocks cookies banners, GDPR overlay windows and other privacy-related notices.
 
-`View EasyList Cookie List <https://easylist-downloads.adblockplus.org/easylist-cookie.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt&title=EasyList%20Cookie%20List>`__
+`View EasyList Cookie List <https://secure.fanboy.co.nz/fanboy-cookiemonster.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://secure.fanboy.co.nz/fanboy-cookiemonster.txt&title=EasyList%20Cookie%20List>`__
 
 -----------------------------
 Fanboy's Social Blocking List
@@ -39,7 +39,7 @@ Fanboy's Annoyance List
 -----------------------
 Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. EasyList Cookie List and Fanboy's Social Blocking List are already included, there is no need to subscribe to them if you already have Fanboy's Annoyance List.
 
-`View Fanboy's Annoyance List <https://easylist.to/easylist/fanboy-annoyance.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist.to/easylist/fanboy-annoyance.txt&title=Fanboy's%20Annoyance%20List>`__
+`View Fanboy's Annoyance List <https://secure.fanboy.co.nz/fanboy-annoyance.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://secure.fanboy.co.nz/fanboy-annoyance.txt&title=Fanboy's%20Annoyance%20List>`__
 
 
 `See all officially supported language-specific supplemental filter lists and EasyList variants </pages/other-supplementary-filter-lists-and-easylist-variants.html>`_
