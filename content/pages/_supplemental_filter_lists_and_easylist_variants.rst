@@ -73,7 +73,7 @@ Latvian List
 ------------
 Latvian List is an affiliated filter list written by anonymous74100 that specifically removes adverts on Latvian language websites.
 
-`View Latvian List <https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt&title=Latvian%20List&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+`View Latvian List <https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt&title=Latvian%20List&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
 
 ---------------
 EasyList Hebrew
