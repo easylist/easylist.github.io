@@ -40,6 +40,13 @@ EasyList China is an affiliated filter list written by John and Li that specific
 
 `View EasyList China <https://easylist-downloads.adblockplus.org/easylistchina.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylistchina.txt&title=EasyList%20China&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
 
+------------------
+RU AdList
+------------------
+RU AdList is an affiliated filter list written by Lain_13 and dimisa that specifically removes adverts on русский, українська language websites.
+
+`View RU AdList <https://easylist-downloads.adblockplus.org/advblock.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/advblock.txt&title=RU%20AdList&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
 --------------
 Bulgarian list
 --------------
@@ -83,11 +90,67 @@ EasyList Hebrew is an affiliated filter list written by BsT that specifically re
 `View EasyList Hebrew <https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt&title=EasyList%20Hebrew&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
 
 ------------------
+Dandelion Sprout's Nordic Filters
+------------------
+Dandelion Sprout's Nordic Filters is an affiliated filter list written by Imre Kristoffer Eilertsen that specifically removes adverts on norsk, norsk, norsk, dansk, íslenska, føroyskt, kalaallisut, suomi language websites.
+
+`View Dandelion Sprout's Nordic Filters <https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt&title=Dandelion%20Sprout%20Nordic%20Filters&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
 EasyList Lithuania
 ------------------
-EasyList Lithuania is an affiliated filter list written by gymka that specifically removes adverts on Lithuanian language websites.
+EasyList Lithuania is an affiliated filter list written by Imre Kristoffer Eilertsen that specifically removes adverts on Lithuanian language websites.
 
-`View EasyList Lithuania <http://margevicius.lt/easylistlithuania.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=http://margevicius.lt/easylistlithuania.txt&title=EasyList%20Lithuania&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+`View EasyList Lithuania <https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt&title=EasyList%20Lithuania&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+EasyList Spanish
+------------------
+EasyList Spanish is an affiliated filter list written by Felippe Santos that specifically removes adverts on español language websites.
+
+`View EasyList Spanish <https://easylist-downloads.adblockplus.org/easylistspanish.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylistspanish.txt&title=EasyList%20Spanish&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+EasyList Portuguese
+------------------
+EasyList Portuguese is an affiliated filter list written by Felippe Santos that specifically removes adverts on português language websites.
+
+`View EasyList Portuguese <https://easylist-downloads.adblockplus.org/easylistportuguese.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylistportuguese.txt&title=EasyList%20Portuguese&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+ABPVN List
+------------------
+ABPVN List is an affiliated filter list written by Hoàng Rio that specifically removes adverts on Tiếng Việt language websites.
+
+`View ABPVN List <https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt&title=ABPVN%20List&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+EasyList Polish
+------------------
+EasyList Polish is an affiliated filter list written by bartoszsobkowiak and mateuszfranckiewicz that specifically removes adverts on polski language websites.
+
+`View EasyList Polish <https://easylist-downloads.adblockplus.org/easylistpolish.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylistpolish.txt&title=EasyList%20Polish&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+IndianList
+------------------
+IndianList is an affiliated filter list written by mediumkreation that specifically removes adverts on বাংলা (ভারত), ગુજરાતી (ભારત), भारतीय, ਪੰਜਾਬੀ (ਭਾਰਤ), অসমীয়া, मराठी, മലയാളം, తెలుగు, ಕನ್ನಡ, ଓଡ଼ିଆ, नेपाली, සිංහල language websites.
+
+`View EasyList IndianList <https://easylist-downloads.adblockplus.org/indianlist.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/indianlist.txt&title=IndianList&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+KoreanList
+------------------
+KoreanList is an affiliated filter list written by Mark Choi that specifically removes adverts on 한국어 language websites.
+
+`View EasyList KoreanList <https://easylist-downloads.adblockplus.org/koreanlist.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/koreanlist.txt&title=KoreanList&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
+
+------------------
+ROList
+------------------
+ROList is an affiliated filter list written by MenetZ and Zoso that specifically removes adverts on românesc language websites.
+
+`View ROList <https://www.zoso.ro/pages/rolist.txt>`_ or `add it to your ad blocker <https://subscribe.adblockplus.org?location=https://www.zoso.ro/pages/rolist.txt&title=ROList&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList>`__
 
 ----------------------------
 Adblock Warning Removal List
