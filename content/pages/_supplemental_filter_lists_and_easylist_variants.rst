@@ -164,13 +164,6 @@ The Adblock Warning Removal List specifically removes obtrusive messages and war
 
 Some of the filter lists have been adapted for specific compatibility with other products and environments; these variants are listed below.
 
-------------------------------------
-EasyPrivacy Tracking Protection List
-------------------------------------
-This EasyPrivacy variant is available for Internet Explorer 9 and higher and blocks tracking items, including web bugs, tracking scripts and information collectors, thereby protecting your personal data.
-
-`View EasyPrivacy Tracking Protection List <https://easylist-downloads.adblockplus.org/easyprivacy.tpl>`_ or `add it to Internet Explorer 9 and higher <javascript:window.external.msAddTrackingProtectionList('http://easylist-msie.adblockplus.org/easyprivacy.tpl',%20'EasyPrivacy%20Tracking%20Protection%20List')>`__
-
 ---------------------------------------------------
 EasyPrivacy without rules for international domains
 ---------------------------------------------------
