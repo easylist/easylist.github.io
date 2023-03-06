@@ -28,46 +28,61 @@
     
     <div class="section" id="easylist-policy">
 <h2>EasyList policy</h2>
+<dl class="docutils">
+<dt>The goal of EasyList is to block <a class="reference external" href="/2011/07/11/the-definition-of-advert-and-link-exchange-policy.html">ads</a> on English and International sites. Self-promotion (any type of advertising that promotes goods or services that are owned or operated by the domain owner and doesn’t get commercially compensated for by third parties (examples can include new features, new posts, newsletters, subscriptions to printed media products, merchandise etc.)) won't be targeted directly. By blocking the following:</dt>
+<dd><ul class="first last simple">
+<li>Ad scripts (Generic and site-specific)</li>
+<li>Ad images</li>
+<li>Text/CSS ads</li>
+<li>Pre/mid/end video ads</li>
+<li>Affiliate links/images/widgets</li>
+<li>Cosmetic filtering (Generic and site-specific CSS)</li>
+<li>Ad servers (Block servers that host ads/ad-related contents)</li>
+<li>Linking, loading or initialising to known Adservers, or ad scripts.</li>
+<li>Ad servers used as clickthrough servers also blocked outright.</li>
+<li>Inserting ad elements (cosmetic, servers or scripts) into a page</li>
+<li>Prevent popups/popunders (Block scripts or domains that cause popups/popunders/ad notifications)</li>
+<li>Placeholders of non-trivial size (Usually ≥50px tall and ≥50px wide)</li>
+<li><dl class="first docutils">
+<dt>Invideo/InSlideshow Ads (This is <em>NOT</em> the same as a site using embedded youtube videos).</dt>
+<dd><ul class="first last">
+<li>1st or 3rd-party content.</li>
+<li>Videos/slideshows that aren't directly related to the specific webpage being shown.</li>
+<li>May autoplay and/or follows user on scroll.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>&quot;Consent messages&quot; using any of these techniques.</li>
+</ul>
+</dd>
+<dt>Anti-adblock in EasyList will cover cosmetic and generic blocks checks:</dt>
+<dd><ul class="first last simple">
+<li>Prevent adblock users showing a website</li>
+<li>Create elements to disrupt viewing a website</li>
+</ul>
+</dd>
+<dt>For legal reasons, anti-adblock this will only cover:</dt>
+<dd><ul class="first last simple">
+<li>Adult websites</li>
+<li>File or Link hosting/sharing</li>
+<li>Streaming/Torrent/Comic sites</li>
+<li>Any historical anti-adblock rules</li>
+</ul>
+</dd>
+</dl>
 <ul class="simple">
 <li><dl class="first docutils">
-<dt>Purpose</dt>
+<dt>Abusive adservers are classed as ad or tracking providers that continously deploys new revolving domains to evade EasyList or EasyPrivacy.</dt>
 <dd><ul class="first last">
-<li>EasyList filters must remove <a class="reference external" href="/2011/07/11/the-definition-of-advert-and-link-exchange-policy.html">adverts</a>, although it is acceptable for them to incidentally remove tracking.</li>
-<li>Self-promotion should not be specifically removed by EasyList, although equally should not be allowed if it is blocked.</li>
-<li>Adverts must be blocked regardless of the reasons for their presence or the purpose that the money raised ultimately serves.</li>
-<li><a class="reference external" href="/2013/03/09/ads-caused-by-malware-or-adware-extensions-or-plugins.html">Ads caused by malware or adware extensions or plugins on your computer will not be fixed</a>.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Filter evaluation</dt>
-<dd><ul class="first last">
-<li>Evidence should be provided that filters need to be added to the subscription.</li>
-<li>Specific filters should only added if a substantial amount of advertising is removed by its inclusion.</li>
-<li>Consistently problematic filters should be removed from the subscription.</li>
-<li><a class="reference external" href="/2013/05/10/anti-adblock-guide-for-site-admins.html">Anti-Adblock should only be challenged if the system limits website functionality or causes significant disruption to browsing</a>.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Coverage</dt>
-<dd><ul class="first last">
-<li>Filters should only be added for English websites; supplements support other languages.</li>
-<li>If it is not feasible for a supplement to override EasyList filters should be added to the primary subscription.</li>
-<li>Languages for which there are no supplements may have issues resolved in EasyList; however, these filters should ideally be transferred to another subscription.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Syntax</dt>
-<dd><ul class="first last">
-<li>Domains specifically serving adverts should be blocked on all third-party websites.</li>
-<li>Filters must be as efficient as possible.</li>
-<li>Only element rules based on id or class should be applied to all domains, unless there are exceptional circumstances.</li>
-<li>Allowlists should be specific enough to avoid protecting unwanted items.</li>
+<li>Using &quot;Revolving domains&quot; with harmful javascript and popups.</li>
+<li>We are an adblock and privacy list</li>
+<li>Montoring EasyList Github commits to then circumvent adblock filters with changing/revolving domains or scripts.</li>
+<li>Adcompanies websites have no useful purporse for EasyList/EasyPrivacy users except trying to create more counters and more spam domains.</li>
+<li>It doesn't matter if the source domain is a different domain. We don't care.</li>
+<li>Will be blocked without warning.</li>
+<li>If you're an abusive ad company, disable EasyList.</li>
+<li>If the domain changes we will update the filters.</li>
 </ul>
 </dd>
 </dl>
@@ -76,44 +91,37 @@
 </div>
 <div class="section" id="easyprivacy-policy">
 <h2>EasyPrivacy policy</h2>
-<ul class="simple">
-<li><dl class="first docutils">
-<dt>Purpose</dt>
-<dd><ul class="first last">
-<li>EasyPrivacy filters must remove tracking.</li>
+<dl class="docutils">
+<dt>The goal of EasyPrivacy is to block tracking and improve end user privacy. By blocking the following:</dt>
+<dd><ul class="first last simple">
+<li>Analytics</li>
+<li>AntiBot or Bot checks</li>
+<li>Telemetry</li>
+<li>Tracking Pixels or cookies (being set, checked or get)</li>
+<li>Referrers</li>
+<li>Beacons</li>
+<li>Fingerprinting</li>
+<li>Email tracking</li>
+<li>Impressions / Event / Perf / Pageview logging</li>
+<li>User agent checks or monitoring</li>
+<li>Resource miners</li>
+<li>Hit counters</li>
+<li>CNAME trackers</li>
+<li>Notification servers / popups including any tracking covered by Easyprivacy policy</li>
+<li>Linking, loading or initialising to known tracking servers, or scripts</li>
+<li>Some unnecessary 3rd-party scripts/images</li>
+<li>&quot;Consent messages&quot; using any of these tracking techniques, covered by Easyprivacy policy</li>
+</ul>
+</dd>
+<dt>When a site is attempting to track, it'll be put into one of 4 categories.</dt>
+<dd><ul class="first last simple">
+<li>Generic blocks (common URL/tracking filter patterns) used by 1st/3rd-parties.</li>
+<li>1st-party tracking. Self-hosted trackers and CNAME trackers.</li>
+<li>3rd-party tracking. Hosted by another provider, which hosts a tracking script, but not actually a tracking company.</li>
+<li>Tracking-servers. Where the server has only one purpose to track/analyze user, will be blocked at the url level.</li>
 </ul>
 </dd>
 </dl>
-</li>
-<li><dl class="first docutils">
-<dt>Filter evaluation</dt>
-<dd><ul class="first last">
-<li>Evidence should be provided that filters need to be added to the subscription.</li>
-<li><a class="reference external" href="/2011/08/31/what-is-acceptable-first-party-tracking.html">Filters for first-party trackers should only be added if the items blocked collect a significant amount of personal data</a>.</li>
-<li>Consistently problematic filters should be removed from the subscription.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Coverage</dt>
-<dd><ul class="first last">
-<li>Filters should be added for websites of all languages.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Syntax</dt>
-<dd><ul class="first last">
-<li>Domains specifically serving tracking should be blocked on all third-party websites.</li>
-<li>Filters must be as efficient as possible.</li>
-<li>Allowed blocked items should be specific enough to avoid protecting unwanted items.</li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
 </div>
 
 </section>
