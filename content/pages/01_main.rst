@@ -2,7 +2,7 @@
 :save_as: index.html
 :url:
 
-The EasyList filter lists are sets of rules originally designed for `Adblock <http://adblock.mozdev.org/>`__ (`adblock.mozdev.org on WayBackMachine (archive.org) <https://web.archive.org/web/20200430081315/http://adblock.mozdev.org/>`__) that automatically remove unwanted content from the internet, including annoying adverts, bothersome banners and troublesome tracking. The filter lists are currently maintained by four authors, Fanboy, MonztA, Khrin and Yuki2718, who are ably assisted by an ample forum community.
+The EasyList filter lists are sets of rules originally designed for `Adblock <http://adblock.mozdev.org/>`__ (`adblock.mozdev.org on WayBackMachine (archive.org) <https://web.archive.org/web/20200430081315/http://adblock.mozdev.org/>`__) that automatically remove unwanted content from the internet, including annoying adverts, bothersome banners and troublesome tracking. The filter lists are currently maintained by four authors, Fanboy, MonztA, Khrin, Yuki2718 and PiQuark6046, who are ably assisted by an ample forum community.
 
 The links listed below allow you to select filter lists for use in your browser provided that you are using a compatible ad blocker (tested with `Adblock Plus <https://adblockplus.org/>`_, `AdBlock <https://getadblock.com/>`_ and `uBlock Origin <https://github.com/gorhill/uBlock/>`_). Furthermore, EasyPrivacy Tracking Protection List is available for `Internet Explorer 9 <http://windows.microsoft.com/en-us/internet-explorer/download-ie>`_ and higher.
 
