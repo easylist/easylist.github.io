@@ -30,13 +30,12 @@ Credits
 
 * fanboy
 * MonztA
-* Famlam
 * Khrin
+* Yuki2718
 
 EasyList Germany authors
 
 * MonztA
-* Famlam
 * Khrin
 
 EasyList logo graphic artist
