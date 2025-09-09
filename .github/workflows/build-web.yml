@@ -54,5 +54,9 @@ jobs:
       run: |
         cd output
         git add --all .
-        git commit -m "Publishing content revision $(git --git-dir ../.git rev-parse --short HEAD)"
-        git push --force origin master:master
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Publishing content revision $(git --git-dir ../.git rev-parse --short HEAD)"
+          git push --force origin master:master
+        fi
